@@ -12,5 +12,5 @@ the dataset is here: https://www.kaggle.com/datasets/datasnaek/youtube-new
 2. create lambda function, include aws wrangler layer (outdated - so use arn from serverless repo com)
 3. create s3 buckets, upload the kaggle dataset
 4. create data catalog using aws glue - create database, then table - point the crawler to s3 bucket with raw dataset
-5. 
+5. the cleansed s3 bucket contains data; query it with athena - but use prebuilt aws glue data catalog!
 
